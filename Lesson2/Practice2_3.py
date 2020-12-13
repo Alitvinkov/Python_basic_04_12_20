@@ -17,6 +17,7 @@ while True:
         break
     else:
         print('Vi vveli neverni format')
+month = 0 if month == 12 else month
 
 print('Po spisku: ' + year_list[month // 3])
 print('Po slovaru: ' + year_dict.get(month // 3))
