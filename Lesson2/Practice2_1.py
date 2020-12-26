@@ -8,5 +8,6 @@ new_list1 = ['spisok', 123456789, 2468, 13579, 24.2, 33.3, None]
 # print(type(new_list1))
 # print(type(new_list1[5]))
 
-for item in new_list1:
-    print(type(item))
+for item_check in new_list1:
+    print(type(item_check))
+print('>>>>>Konec programmi<<<<<')
