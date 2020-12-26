@@ -8,3 +8,21 @@
 # Пользователь ввел число 8. Результат: 8, 7, 5, 3, 3, 2.
 # Пользователь ввел число 1. Результат: 7, 5, 3, 3, 2, 1.
 # Набор натуральных чисел можно задать непосредственно в коде, например, my_list = [7, 5, 3, 3, 2].
+
+
+general_list = [5, 2, 8, 4, 1, 9, 8]
+
+while True:
+    print(general_list)
+    new_count = input('Vvedite celoe pologitelnoe chislo chislo'
+                      '\nDlya ostanovki programmi nagmite "e" \n<<<<<')
+
+    if new_count.isdigit():
+        print("\nПолученный рейтинг:\n")
+        general_list.append(int(new_count))
+        general_list.sort(reverse=True)
+    elif new_count == "e":
+        print('Poka')
+        break
+
+
