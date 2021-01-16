@@ -12,3 +12,5 @@ def gehalt ():
         print('Vvedite tri chisla. ')
 
 gehalt()
+
+
