@@ -1,0 +1,7 @@
+petrov 30000
+sidorov 25000
+ivanov 25000
+samo 15000
+petuhov 45000
+morgov 15000
+sirotin 10000
